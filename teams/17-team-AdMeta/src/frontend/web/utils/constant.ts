@@ -8,10 +8,15 @@ export const POLKADOT_NETWORK = 'wss://testnet.admeta.network'
 export const ADMETA_MSG_HACKATHON_ACCOUNT = 'ADMETA_MSG_HACKATHON_ACCOUNT'
 export const ADMETA_MSG_HACKATHON_SOUL = 'ADMETA_MSG_HACKATHON_SOUL'
 
-export const NEXT_PUBLIC_RECAPTCHA_SITE_KEY = '6Lf7VCUjAAAAAAAUag26CfXu0_oretpWmri5LxUC'
-export const RECAPTCHA_SECRET_KEY = '6Lf7VCUjAAAAAPg5DrN6TjT5auPB69p90pGBekSa'
+// localhost
+// export const NEXT_PUBLIC_RECAPTCHA_SITE_KEY = '6Lf7VCUjAAAAAAAUag26CfXu0_oretpWmri5LxUC'
+// export const RECAPTCHA_SECRET_KEY = '6Lf7VCUjAAAAAPg5DrN6TjT5auPB69p90pGBekSa'
 
-export const API = 'http://localhost:3120/hackathon/'
+// polkadot.hackathon.admeta.network
+export const NEXT_PUBLIC_RECAPTCHA_SITE_KEY = '6Lc76ccjAAAAAPjpiTTbrLxZHYV95tTb6jQfI11_'
+export const RECAPTCHA_SECRET_KEY = '6Lc76ccjAAAAAPC_sDs9La871M6G8fGSpXm2Pqjc'
+
+export const API = 'http://localhost:4020/hackathon/'
 
 export const IPFS_IMGS = [
   'https://ipfs.io/ipfs/QmPQdVU1riwzijhCs1Lk6CHmDo4LpmwPPLuDauY3i8gSzL',
